@@ -37,6 +37,8 @@ margin-top: 0rem;
    background-color: #222831;
    width:100%;
    animation: fadeIn 2s;
+   min-height: 60px;
+   max-height: 60px;
 }
 
 #h{
@@ -48,8 +50,8 @@ margin-top: 0rem;
 }
 
 .bg-dark{
-  background: transparent !important;
-  transition: 500ms ease;
+  background-color: rgba(20, 20, 20, 0.7) !important;
+  transition: 200ms ease;
 }
 
 .bg-dark.scrolled{
@@ -139,7 +141,7 @@ margin-top: 0rem;
 /* aboutUs */
 .bg-image5{
   background-image: linear-gradient(rgba(0.3, 0, 0.4, 0.45),
-  rgba(0.9, 0, 0, 0.5)), url("../images/bg444.jpg");
+  rgba(0.9, 0, 0, 0.5)), url("../images/bg-white-blue.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -184,25 +186,49 @@ letter-spacing: 6px;
 }
 
 .heading1 hr{
-  /* width: 100px; */
+  width: 100px;
   /* height: 1px; */
-  border-width: 3.5px;
+  border-width: 2.5px;
   background-color: black;
   border-radius: 9px;
   opacity: 0.86;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.2rem;
-  /* border-style: dotted; */
 }
 
 .paragraph1{
   font-size: 1.5em;
   color: white;
   text-align: center;
-  animation: fadeIn 3s;
+  animation: fadeIn 2s;
   padding-top: 0rem;
 }
+
+.paragraph1 h2{
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  animation: fadeIn 2s;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.paragraph1 p{
+  font-size: 0.8em;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  animation: fadeIn 2s;
+  padding-top: 0rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: justify;
+}
+
 
 .section2{
   animation:fadeIn 1s;
@@ -424,6 +450,58 @@ letter-spacing: 6px;
   font-weight: bold;
   text-shadow: 2px 2px 9px black;
   /* padding: 7px 10px; */
+}
 
 
+#gheisar{
+  /* align: right; */
+  /* width: 40%; */
+  margin-top: 4.75rem;
+  margin-left: 69rem;
+  /* height: 20%; */
+  /* margin-top: 20rem; */
+}
+
+.image-gheisar{
+  width:650px;
+}
+
+#the-story{
+  animation: fadeIn 2s;
+  color: white;
+  /* font-size: 36px; */
+  font-weight: bold;
+  margin-top: 7rem;
+  margin-left: -90rem;
+}
+
+.content-box {
+  position:relative;
+  width:100%;
+  min-height:350px;
+  /* background:#ccc; */
+  /* margin:10px 0; */
+}
+
+.img-box.left {
+  position:absolute;
+  top:-15px;
+  right:-15px;
+  bottom:-15px;
+  /* left: 9rem; */
+  width:calc( 50vw - 15px );
+  /* background:red; */
+}
+
+
+@media only screen and (max-width: 768px) {
+     .img-box.left  {
+      position:absolute;
+      top:0px;
+      left:0px;
+      right:0px;
+      bottom:0px;
+      width:100%;
+      background:red;
+    }
 }
