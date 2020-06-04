@@ -150,7 +150,7 @@ margin-top: 0rem;
 /* contactUs */
 .bg-image6{
   background-image: linear-gradient(rgba(0.3, 0, 0.4, 0.45),
-  rgba(0.9, 0, 0, 0.5)), url("../images/bg444.jpg");
+  rgba(0.9, 0, 0, 0.5)), url("../images/bg-rose.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -504,4 +504,19 @@ letter-spacing: 6px;
       width:100%;
       background:red;
     }
+}
+
+#contact-space{
+  padding-top: 6rem;
+  font-size: 1.5em;
+}
+
+.bg-text form{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  /* margin-top: 3rem */
+}
+
+.form-control{
+  margin-top: 2rem;
 }
