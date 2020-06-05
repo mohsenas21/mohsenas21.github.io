@@ -287,7 +287,7 @@ letter-spacing: 0px;
 
 #carouselExampleFade{
   padding-top: 4rem;
-  padding-bottom: 16rem;
+  padding-bottom: 5rem;
   animation: fadeIn 1s;
   width: 75%;
 }
@@ -482,6 +482,10 @@ letter-spacing: 0px;
 }
 
 .bg-text{
+  padding-bottom: 5rem;
+}
+
+.bg-text-contact{
   padding-bottom: 20rem;
 }
 
@@ -527,4 +531,8 @@ letter-spacing: 0px;
       .col-md-10{
         margin-left: 8.5%;
       }
+  }
+
+  .fb-ic, .gplus-ic, .ins-ic{
+    color: black;
   }
