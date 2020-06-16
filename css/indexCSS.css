@@ -242,6 +242,13 @@ margin-top: 0rem;
   text-align: justify, center;
 }
 
+.paragraph-main{
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 2rem;
+  text-align: justify, center;
+}
+
 .bg-text2 h1{
     font-weight:900;
     font-size: 2rem;
@@ -546,9 +553,9 @@ margin-top: 0rem;
   left: 50%;
   bottom: -2px;
   width: 0px;
-  height: 1.0px;
+  height: 1.3px;
   background: white;
-  transition: all 0.25s;
+  transition: all 0.35s;
 
   }
 
