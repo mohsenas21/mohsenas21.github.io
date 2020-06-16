@@ -1,113 +1,121 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Events</title>
-      <!-- fontAwesome V 5.13.0 -->
-      <script src="https://kit.fontawesome.com/6cf4dde05e.js" crossorigin="anonymous"></script>
-      <!-- BootStrap V 4.0 -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-      <!-- jQuery V 3.5.1 -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <!-- My CSS V 2.1 :) -->
-      <!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"> -->
-      <link rel="stylesheet" type="text/css" href="../css/indexCSS.css">
-      <script>
-         // To change the navbar color
-         $(window).scroll(function() {
-           $('nav').toggleClass('scrolled', $(this).scrollTop() > 20);
-         });
-      </script>
-   </head>
-   <body>
-      <header>
-         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
-            <a class="navbar-brand" href="../index.html">
-               <!-- <img src="../images/logo2.png" alt="rug_logo" class="rug_logo" style="transform: rotate(340deg);"> -->
-               Ziba Rug
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Events</title>
+  <!-- fontAwesome V 5.13.0 -->
+  <script src="https://kit.fontawesome.com/6cf4dde05e.js" crossorigin="anonymous"></script>
+  <!-- BootStrap V 4.0 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <!-- jQuery V 3.5.1 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- My CSS V 2.1 :) -->
+  <!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"> -->
+  <link rel="stylesheet" type="text/css" href="../css/indexCSS.css">
+  <script>
+    // To change the navbar color
+    $(window).scroll(function() {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 20);
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
+      <a class="navbar-brand" href="../index.html">
+        <!-- <img src="../images/logo2.png" alt="rug_logo" class="rug_logo" style="transform: rotate(340deg);"> -->
+        Ziba Rug
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="../index.html" id="underline">HOME</a>
+          <a class="nav-item nav-link" href="gallery.html" id="underline">GALLERY <span class="sr-only">(current)</span></a>
+          <li class="nav-item dropdown" id="underline">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              EVENTS
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-               <div class="navbar-nav ml-auto">
-                  <a class="nav-item nav-link" href="../index.html">HOME</a>
-                  <a class="nav-item nav-link" href="gallery.html">GALLERY <span class="sr-only">(current)</span></a>
-                  <li class="nav-item dropdown">
-                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                     EVENTS
-                     </a>
-                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="Store-events.html">STORE SALES</a>
-                        <a class="dropdown-item" href="other-events.html">SALES IN YOUR CITY</a>
-                     </div>
-                  </li>
-                  <a class="nav-item nav-link active" href="aboutUs.html">ABOUT US</a>
-                  <a class="nav-item nav-link" href="contact.html">CONTACT US</a>
-               </div>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="Store-events.html">STORE SALES</a>
+              <a class="dropdown-item" href="other-events.html">SALES IN YOUR CITY</a>
             </div>
-         </nav>
-      </header>
-      <section class="bg-image5">
-         <center>
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-2 img-modern" id="gheisar">
-                     <div class="content-box">
-                        <div class="img-box left">
-                           <img src="../images/Gheisar.jpg" class="image-gheisar">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-8" id="the-story">
-                     <div class="content-box">
-                        <div class="bg-text">
-                           <div class="heading1">
-                              <h1>THE STORY</h1>
-                              <hr>
-                           </div>
-                           <div class="paragraph1">
-                              <h2>From Qeysarie bazaar To Canada</h2>
-                              <p>The Grand Bazaar (in Persian: Bazar Bozorg, بازار بزرگ) is a historical market located in Isfahan, Iran, also known as the Qeysarriyeh Bazaar (in Persian: بازار قيصريه), Qeysarie bazaar or Soltani bazaar. The main commercial activities in the Qeysarie bazaar are carpet and kilim selling. The bazaar was one of the greatest and luxorious trading center in the safavid era for rugs for sale . It was built in 1620 on the northern side of Naqsh-e Jahan Square. It connects the Naqsh-e Jahan Square to the Atiq square and seljukid part of Isfahan.</p>
-                              <h2>Mr. Gheisari, The Man Behind the rugs</h2>
-                              <p> For centuries, Persian rugs have been an integral part of the Persian history and culture.  The history of rugs has been handed down by fathers to their sons, keeping the legacy and tradition alive; a culmination of artistic & cultural brilliance.
-                                 Mr. Gheisari,  owner of Ziba Rug Gallery, took after his father’s footsteps who once had a charming antique & area rugs shop in 'The Grand Bazaar'. He grew up working alongside his father, growing a passion for the industry and the art of handmade Persian rugs that's embedded so deeply in his blood. For three generations, Ziba Rug Gallery has established a reputation for carrying the finest quality rugs in the market and is presently recognized as one of Toronto’s leading rug distributors & retailers in the northern GTA since 1989.
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+          </li>
+          <a class="nav-item nav-link active" href="aboutUs.html" id="underline">ABOUT US</a>
+          <a class="nav-item nav-link" href="contact.html" id="underline">CONTACT US</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="bg-image5">
+    <center>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 img-modern" id="gheisar">
+            <div class="content-box">
+              <div class="img-box left">
+                <img src="../images/Gheisar.jpg" class="image-gheisar">
+              </div>
             </div>
-         </center>
-      </section>
-      <center>
-         <footer class="page-footer font-small cyan darken-3">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-12 py-5">
-                     <div class="mb-1 flex-center">
-                        <a class="gplus-ic" href="http://ashkan.epizy.com">
-                        <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <a class="ins-ic" href="https://www.instagram.com/sera_rug_gallery/">
-                        <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                        <a class="fb-ic" href="https://www.facebook.com/pages/category/Carpet---Flooring-Store/Ziba-Rug-289162788648982/">
-                        <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
+          </div>
+          <div class="col-md-8" id="the-story">
+            <div class="content-box">
+              <div class="bg-text">
+                <div class="heading1">
+                  <h1>THE STORY</h1>
+                  <hr>
+                </div>
+                <div class="paragraph1">
+                  <h2>From Qeysarie bazaar To Canada</h2>
+                  <p>The Grand Bazaar (in Persian: Bazar Bozorg, بازار بزرگ) is a historical market located in Isfahan, Iran, also known as the Qeysarriyeh Bazaar (in Persian: بازار قيصريه), Qeysarie bazaar or Soltani bazaar. The main commercial
+                    activities in the Qeysarie bazaar are carpet and kilim selling. The bazaar was one of the greatest and luxorious trading center in the safavid era for rugs for sale . It was built in 1620 on the northern side of Naqsh-e Jahan
+                    Square. It connects the Naqsh-e Jahan Square to the Atiq square and seljukid part of Isfahan.</p>
+                  <h2>Mr. Gheisari, The Man Behind the rugs</h2>
+                  <p> For centuries, Persian rugs have been an integral part of the Persian history and culture. The history of rugs has been handed down by fathers to their sons, keeping the legacy and tradition alive; a culmination of artistic &
+                    cultural brilliance.
+                    Mr. Gheisari, owner of Ziba Rug Gallery, took after his father’s footsteps who once had a charming antique & area rugs shop in 'The Grand Bazaar'. He grew up working alongside his father, growing a passion for the industry and the
+                    art of handmade Persian rugs that's embedded so deeply in his blood. For three generations, Ziba Rug Gallery has established a reputation for carrying the finest quality rugs in the market and is presently recognized as one of
+                    Toronto’s leading rug distributors & retailers in the northern GTA since 1989.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="footer-copyright text-center py-1">© 2020 Created by:
-               <a href="https://github.com/amohseni80"> Ashkan Mohseni</a>
+          </div>
+        </div>
+      </div>
+    </center>
+  </section>
+  <center>
+    <footer class="page-footer font-small cyan darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 py-5">
+            <div class="mb-1 flex-center">
+              <a class="gplus-ic" href="http://ashkan.epizy.com">
+                <i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="ins-ic" href="https://www.instagram.com/sera_rug_gallery/">
+                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
+              <a class="fb-ic" href="https://www.facebook.com/pages/category/Carpet---Flooring-Store/Ziba-Rug-289162788648982/">
+                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              </a>
             </div>
-         </footer>
-      </center>
-   </body>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-1">© 2020 Created by:
+        <a href="https://github.com/amohseni80"> Ashkan Mohseni</a>
+      </div>
+    </footer>
+  </center>
+</body>
+
 </html>
