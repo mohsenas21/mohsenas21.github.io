@@ -69,7 +69,7 @@ body {
 }
 
 #navbar {
-  background-color: #222831;
+  background-color: #302222;
   width: 100%;
   animation: fadeIn 2s;
   min-height: 60px;
@@ -345,6 +345,13 @@ body {
   #txt-gallery {
     margin-right: 0rem;
     padding-right: 0rem;
+  }
+  #navbar {
+    background-color: #302222;
+    width: 100%;
+    animation: fadeIn 2s;
+    min-height: 60px;
+    max-height: 300px;
   }
 }
 
