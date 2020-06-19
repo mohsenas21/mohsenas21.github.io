@@ -4,68 +4,27 @@ body {
 
 /* fadeIn */
 @keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  10% {
-    opacity: 0.1;
-  }
-
-  20% {
-    opacity: 0.2;
-  }
-
-  30% {
-    opacity: 0.3;
-  }
-
-  40% {
-    opacity: 0.4;
-  }
-
-  50% {
-    opacity: 0.5;
-  }
-
-  60% {
-    opacity: 0.6;
-  }
-
-  70% {
-    opacity: 0.7;
-  }
-
-  80% {
-    opacity: 0.8;
-  }
-
-  90% {
-    opacity: 0.9;
-  }
-
-  100% {
-    opacity: 1;
-  }
+  0% {opacity: 0;}
+  10% {opacity: 0.1;}
+  20% {opacity: 0.2;}
+  30% {opacity: 0.3;}
+  40% {opacity: 0.4;}
+  50% {opacity: 0.5;}
+  60% {opacity: 0.6;}
+  70% {opacity: 0.7;}
+  80% {opacity: 0.8;}
+  90% {opacity: 0.9;}
+  100% {opacity: 1;}
 }
 
 /* fadeIn2 */
 @keyframes fadeIn2 {
-  0% {
-    background-color: transparent;
-    color: white;
-  }
-
-  100% {
-    background-color: #e7e7e7;
-    color: black;
-  }
+  0% {background-color: transparent;color: white;}
+  100% {background-color: #e7e7e7;color: black;}
 }
 
 @keyframes button {
-  100% {
-    transform: rotate(360deg);
-  }
+  100% {transform: rotate(360deg);}
 }
 
 #navbar {
@@ -341,7 +300,6 @@ body {
     padding-bottom: 20rem;
     margin-left: 0rem;
   }
-
   #txt-gallery {
     margin-right: 0rem;
     padding-right: 0rem;
@@ -352,6 +310,16 @@ body {
     animation: fadeIn 2s;
     min-height: 60px;
     max-height: 300px;
+  }
+  .paragraph-main {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 2rem;
+    text-align: justify, center;
+  }
+  .btn-light {
+    padding: 1rem 2rem;
+    font-size: 1.0rem;
   }
 }
 
