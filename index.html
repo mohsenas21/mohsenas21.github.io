@@ -1,174 +1,76 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!doctype html>
+<html lang="en">
 
 <head>
+  <!-- Required meta tags -->
   <meta charset="utf-8">
-  <!-- PhoneUse -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="Cache-Control" content="max-age=200" />
-  <title>Ziba Rugs</title>
-  <!-- fontAwesome V 5.13.0 -->
-  <script src="https://kit.fontawesome.com/6cf4dde05e.js" crossorigin="anonymous"></script>
-  <!-- BootStrap V 4.0 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  <!-- jQuery V 3.5.1 -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <!-- My CSS V 2.1 :) -->
-  <link rel="stylesheet" type="text/css" href="css/indexCSS.css">
-  <script>
-    // To change the navbar color
-    $(window).scroll(function() {
-      $('nav').toggleClass('scrolled', $(this).scrollTop() > 730);
-    });
-  </script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="design.css">
+
+  <title>Hello, world!</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar">
-      <a class="navbar-brand" href="index.html">
-        <!-- <img src="images/logo2.png" alt="rug_logo" class="rug_logo" style="transform: rotate(340deg);"> -->
-        Ziba Rug
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="index.html" id="underline">HOME <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="html/gallery.html" id="underline">GALLERY</a>
-          <li class="nav-item dropdown" id="underline">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              EVENTS
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="html/Store-events.html">STORE SALES</a>
-              <a class="dropdown-item" href="html/other-events.html">SALES IN YOUR CITY <span class="sr-only">(current)</span></a>
-            </div>
-          </li>
-          <a class="nav-item nav-link" href="html/aboutUs.html" id="underline">ABOUT US</a>
-          <a class="nav-item nav-link" href="html/contact.html" id="underline">CONTACT US</a>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <section class="bg-image">
-    <center>
-      <div class="heading1">
-        <h1>HUGE RUG SALE 80% OFF MARKET VALUE</h1>
-      </div>
-      <div class="paragraph1">
-        <p1> We're going out of business so everything must be sold!</p1>
-      </div>
-      <div class="button-main">
-        <a href="html/gallery.html">
-          <button type="button" class="btn btn-light">
-            CLICK HERE TO SEE OUR GALLERY
-          </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+        <a class="navbar-brand" id="navnav" href="index.html">
+          <img src="resources/TayWorks2.png" width="300"  height="210" alt="" class="d-inline-block align-middle mr-2">
         </a>
-      </div>
-    </center>
-  </section>
-  <section class="section-grey">
-    <center>
-      <div class="styles">
-        <div class="heading3">
-          <h1>RUG STYLES </h1>
-          <br>
-          <div class="container">
-            <div class="row h-100">
-              <div class="col-10 col-sm-9 col-md-7 col-lg-4 img-modern">
-                <img src="images/rug3.jpg" class="image">
-                <div class="middle">
-                  <div class="text">ANTIQUE</div>
-                </div>
-              </div>
-              <div class="col-10 col-sm-9 col-md-7 col-lg-4 img-modern">
-                <img src="images/rug-traditional.jpg" class="image">
-                <div class="middle">
-                  <div class="text">TRADITIONAL</div>
-                </div>
-              </div>
-              <div class="col-10 col-sm-9 col-md-7 col-lg-4 img-modern">
-                <img src="images/modern1.jpg" class="image">
-                <div class="middle">
-                  <div class="text">MODERN</div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNav">
+           <ul class="navbar-nav ml-auto" id="navbar">
+              <li class="nav-item active"> <a class="nav-link" href="index.html" id="underline">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"> <a class="nav-link" href="about.html" id="underline">About</a></li>
+              <li class="nav-item"> <a class="nav-link" href="portfolio.html" id="underline">Portfolio</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="contact.html" id="underline">Contact</a> </li>
+           </ul>
         </div>
-      </div>
-    </center>
-  </section>
-  <section class="section2">
-    <center>
-      <div class="bg-text2">
-        <div class"heading2">
-          <h1>Largest Selection of Fine Hand-knotted Rugs in Ontario</h1>
-        </div>
-        <div class="paragraph-main">
-          <p1> Ziba Rug, located in the heart of Richmond Hill about 25 mins from the
-            downtown Toronto  core offers an exceptional selection of area rugs, antique,
-            semi-antique and new antique  reproduction rugs. We offer unique Persian,
-            tribal and modern rugs that cannot easily be found at the most reasonable
-            prices, large selection of rugs for sale.
-          </p1>
-        </div>
-      </div>
-    </center>
-  </section>
-  <section class="section-grey">
-    <center>
-      <div class="location">
-        <div class="heading3">
-          <h1>LOCATION </h1>
-        </div>
-        <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2876.845248847918!2d-79.4309516845063!3d43.859036079114716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2b46524e8d2d%3A0x2775d2fed2faa579!2sZiba%20Rugs%20Richmond%20Hill%2C%20Going%20Out%20Of%20Business%20after%2020%20Years!5e0!3m2!1sen!2sca!4v1590083387805!5m2!1sen!2sca"
-            class="map" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-      </div>
-      <center>
-  </section>
-  <center>
-    <footer class="page-footer font-small teal pt-4">
-      <div class="container-fluid text-center text-md-left">
-        <div class="row">
+     </nav>
 
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <br>
-            <h5 class="text-uppercase font-weight-bold">Important links</h5><br>
-            <ul class="list-unstyled">
-              <li><a href="html/gallery.html">Gallery</a></li>
-              <li><a href="html/Store-events.html">Store sales</a></li>
-              <li><a href="html/other-events.html">Sales in your city</a></li>
-              <li><a href="htmlaboutUs.html">About us</a></li>
-              <li><a href="html/contact.html">Contact us</a></li>
-            </ul>
-          </div>
 
-          <hr class="clearfix w-100 d-md-none pb-3">
 
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-            <h6 class="text-uppercase font-weight-bold">Contact</h6>
-            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-            <p><i class="fas fa-home mr-3"></i> 53 Observatory Ln, Richmond Hill, ON</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-            <p><i class="fas fa-phone mr-3"></i> 647-472-1114</p>
-            <p><i class="fas fa-print mr-3"></i> +1-647-4721515</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-copyright text-center py-3">© 2020 Created by:
-        <a href="https://github.com/ashMohseni"> Ash Mohseni</a>
-      </div>
-    </footer>
-  </center>
+  <div class="main">
+
+    <center>
+      <h1 class="title">Ceramic and Multi Media Craft Artist</h1>
+    <br><h2 id="tay"> By Taylor Chan </h2> <br><br>
+      <a class="nav-link" href="portfolio.html">
+        <button type="button" class="btn btn-outline-light btn-lg">View More</button>
+      </a>
+    </center>
+  </div>
+
+
+
+  <footer class="text-center text-white">
+    <div class="container pt-4" style="margin-top: 20px;">
+      <section class="mb-3">
+        <center>
+          <a href="https://linkedin.com/in/tayworks" target="_blank"><img class="img-fluid" id="icon" alt="Linkedin icon" src="resources/linkedin.png"></a>
+          <a href="https://www.instagram.com/tayworks_/" target="_blank"><img class="img-fluid" id="icon" alt="Email icon" src="resources/instagram.png"></a>
+          <a href="mailto: Taylor.Daley70@yahoo.ca" target="_blank"><img class="img-fluid" id="icon" alt="Email icon" src="resources/email.png"></a>
+          <a href="https://www.facebook.com/groups/328994493938953" target="_blank"><img class="img-fluid" id="icon" alt="FaceBook icon" src="resources/facebook.png"></a>
+          </center>
+      </section>
+    </div>
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-blue" target="_blank" href="https://github.com/ashMohseni">Ash Mohseni</a>
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
